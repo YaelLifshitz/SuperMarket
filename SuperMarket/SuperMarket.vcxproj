@@ -123,32 +123,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Agriculture.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Cheese.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Dairy.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Fruit.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Interface.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\main.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\OtherDairy.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Package.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Product.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Shop.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Vegetable.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Agriculture.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Cheese.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Dairy.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Fruit.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Interface.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\OtherDairy.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Package.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Product.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Shop.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\Vegetable.h" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="..\..\..\..\Desktop\Yael\OOP Cpp\targil 3\input.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="OtherDairy.h" />
+    <ClInclude Include="Package.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="Vegetable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Agriculture.cpp" />
+    <ClCompile Include="Cheese.cpp" />
+    <ClCompile Include="Dairy.cpp" />
+    <ClCompile Include="Fruit.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="OtherDairy.cpp" />
+    <ClCompile Include="Package.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="Shop.cpp" />
+    <ClCompile Include="Vegetable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
